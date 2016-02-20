@@ -59,26 +59,24 @@ NOTE: For Linux(ubuntu distros only)-- Tested on ElementaryOS
 ---------------------------------------------------HOW TO USE--------------------------------------------------------------
 
 1. Creating a request
-	GO TO URL -- http://localhost:8000/api/request?connId=YOUR_WISH&timeOut=YOUR_WISH
+		GO TO URL -- http://localhost:8000/api/request?connId=YOUR_WISH&timeOut=YOUR_WISH
 
-	--timeOut is in seconds
-	--The request is running in the background. You can see it executing in the Celery Terminal
-	--The request here is doing very basic job. It is only to show that it is working. You can create any desired task by 
-	  changing the task in "tasks.py" file.
-	--You can see all the active/running requests by follwing the next step.
+		--timeOut is in seconds.
+		--The request is running in the background. You can see it executing in the Celery Terminal
+		--The request here is doing very basic job. It is only to show that it is working. You can create any desired			   task by changing the task in "tasks.py" file.
+		--You can see all the active/running requests by follwing the next step.
 
-2. 	Getting and checking all running requests
-	 GO TO URL -- http://localhost:8000/api/active
+2. Getting and checking all running requests
+		GO TO URL -- http://localhost:8000/api/active
 
-3.  To see the Server Status
-	 GO TO URL -- http://localhost:8000/api/serverStatus
+3. To see the Server Status
+		GO TO URL -- http://localhost:8000/api/serverStatus
 
-4.  To kill a request
-	 GO TO URL -- http://localhost:8000/api/kill/
-
-	 and execute a PUT request on it with a payload/data {"connId" : "YOUR_WISH"}
+4. To kill a request
+		GO TO URL -- http://localhost:8000/api/kill/
+		and execute a PUT request on it with a payload/data {"connId" : "YOUR_WISH"}
 
 
-	 --for your own convenience I have given a second option to kill the request
-	 --You can also simply kill a request by running a GET call on -- http://localhost:8000/api/kill?connId=YOUR_WISH
+		--for your own convenience I have given a second option to kill the request
+		--You can also simply kill a request by running a GET call on -- http://localhost:8000/api/kill?connId=YOUR_WISH
 	   so that don't have to use any Third party Software/Plugin/Extension to kill a task. 
