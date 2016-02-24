@@ -8,7 +8,7 @@ NOTE: For Linux(ubuntu distros only)-- Tested on ElementaryOS
 
 1. Download the zip & extract OR clone the repository.
 
-2. Install Python version 2.7.x where 0 <= x <= 11.
+2. Install Python version 2.7.x.
 
 3. Install pip.
 
