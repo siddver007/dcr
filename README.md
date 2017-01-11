@@ -6,7 +6,7 @@ A django based server using celery capable of doing the following:
 
 
 
-#### HOW TO RUN
+## HOW TO RUN
 
 NOTE: For Linux(ubuntu distros only)-- Tested on ElementaryOS
 
