@@ -17,7 +17,7 @@ NOTE: For Linux(ubuntu distros only)-- Tested on ElementaryOS
 3. Install pip.
 
 4. Install Virtual Environment( For your own benefit of not installing packages globally )
-		$ pip install virtualenv
+$ pip install virtualenv
 
 5. Create a virtual environment( Make it somewhere near the downloaded folder for your own benefit)
 		$ virtualenv myvenv
@@ -60,7 +60,7 @@ NOTE: For Linux(ubuntu distros only)-- Tested on ElementaryOS
 		--You can also access this server from any other system on the same Network
 
 
----------------------------------------------------HOW TO USE--------------------------------------------------------------
+## HOW TO USE
 
 1. Creating a request
 		GO TO URL -- "http://localhost:8000/api/request?connId=YOUR_WISH&timeOut=YOUR_WISH"
