@@ -1,5 +1,9 @@
 # django-celery-redis-async-server-alpha
-django-celery-redis-async-server  This is a django project with a django app to give you the idea how celery can be used with django to create an API server to handle async requests. This Django-server let's you create requests running for a specified time, get running requests, kill a specific request, and get time remaining for the active requests. This is a fairly basic example with the motive of only showing how celery can be used with Django to create a Top-Notch RESTful server.
+A django based server using celery capable of doing the following:
+   - Exposes a GET API which keeps the request running for provided time on the server side and after the successful completion of 	      the provided time it returns some result.
+   - Exposes a GET API that returns all the running requests on the server with their time left for completion.
+   - Exposes a PUT API to terminate the running request with provided connId.
+
 
 
 -----------------------------------------------------HOW TO RUN--------------------------------------------------------------
