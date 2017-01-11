@@ -1,8 +1,8 @@
 # django-celery-redis-async-server-alpha
 A django based server using celery capable of doing the following:
 - Exposes a GET API which keeps the request running for provided time on the server side and after the successful completion of 	      the provided time it returns some result.
-   - Exposes a GET API that returns all the running requests on the server with their time left for completion.
-   - Exposes a PUT API to terminate the running request with provided connId.
+- Exposes a GET API that returns all the running requests on the server with their time left for completion.
+- Exposes a PUT API to terminate the running request with provided connId.
 
 
 
