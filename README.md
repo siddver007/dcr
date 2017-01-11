@@ -1,4 +1,4 @@
-# django-celery-redis-async-server-alpha
+# DCR (Django Celery Redis)
 A django based server using celery capable of doing the following:
 - Exposes a GET API which keeps the request running for provided time on the server side and after the successful completion of 	      the provided time it returns some result.
 - Exposes a GET API that returns all the running requests on the server with their time left for completion.
@@ -6,7 +6,7 @@ A django based server using celery capable of doing the following:
 
 
 
------------------------------------------------------HOW TO RUN--------------------------------------------------------------
+#### HOW TO RUN
 
 NOTE: For Linux(ubuntu distros only)-- Tested on ElementaryOS
 
